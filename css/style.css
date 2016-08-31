@@ -1,0 +1,57 @@
+@import url(reset.css);
+.wrapper{
+	width:1030px;
+	height:auto;
+	margin:5px auto;
+}
+
+.top-header{
+	max-height:115px;
+	width:100%;
+	overflow:hidden;
+}
+
+.logo{
+	float:left;
+	max-width:145px;
+	max-height:103px;
+}
+
+.top-info {
+	margin-left:145px;
+	padding-left:300px;
+}
+
+.top-info span.phone{
+	color:red;
+}
+
+.top-info ul li{
+	float:left;
+	margin-right:11px;
+}
+
+div.search{
+	 float:right;
+}
+
+.search input[type=text]{	
+ background-image: url('images/search.png');
+ width:308px;
+ height:37px;	
+ display:inline-block;
+ position:relative;
+}
+
+div.header-categories{
+ 
+}
+
+div.header-categories ul{
+	
+}
+
+div.header-categories ul li{
+	float:left;
+	padding-right:15px;
+}
