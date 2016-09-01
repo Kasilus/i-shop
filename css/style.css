@@ -6,7 +6,7 @@
 }
 
 .top-header{
-	max-height:115px;
+	height:115px;
 	width:100%;
 	overflow:hidden;
 }
@@ -43,15 +43,30 @@ div.search{
  position:relative;
 }
 
-div.header-categories{
- 
+.header nav{
+ background-color: #000a52;
+ overflow:hidden;
+ height:40px;
+ position:absolute;
+ width:100%;
+ left:0;
 }
 
-div.header-categories ul{
-	
+.header nav ul{
+  margin:12px 0;
 }
 
-div.header-categories ul li{
+.header nav ul li{
 	float:left;
 	padding-right:15px;
+}
+
+.header nav ul li a{
+	text-decoration:none;
+	color:white;
+}
+
+.header nav ul li a:hover{
+	text-decoration:underline;
+	border-bottom:2 px solid #ffffff;
 }
