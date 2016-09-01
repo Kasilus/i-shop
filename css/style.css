@@ -67,6 +67,5 @@ div.search{
 }
 
 .header nav ul li a:hover{
-	text-decoration:underline;
-	border-bottom:2 px solid #ffffff;
+	border-bottom:2px solid white;
 }
