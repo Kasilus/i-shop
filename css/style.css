@@ -17,20 +17,6 @@
 	max-height:103px;
 }
 
-.top-info {
-	margin-left:145px;
-	padding-left:300px;
-}
-
-.top-info span.phone{
-	color:red;
-}
-
-.top-info ul li{
-	float:left;
-	margin-right:11px;
-}
-
 div.search{
 	 float:right;
 }
@@ -41,6 +27,30 @@ div.search{
  height:37px;	
  display:inline-block;
  position:relative;
+ margin-left:43px;
+}
+
+.top-info {
+	float:right;
+}
+
+.top-info span.phone{
+	color:red;
+}
+
+.top-info ul li{
+	float:left;
+	margin-top:12px;
+	margin-right:11px;
+}
+
+.top-info ul li a{
+	text-decoration:underline;
+	color:#666666;
+}
+
+.search,.top-info{
+	margin:28px 0;
 }
 
 .header nav{
