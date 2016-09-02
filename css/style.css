@@ -79,3 +79,43 @@ div.search{
 .header nav ul li a:hover{
 	border-bottom:2px solid white;
 }
+
+.new-content{
+	height:362px;
+	background-color:yellow;
+}
+
+.main-nav{
+float:left;
+}
+
+.main-nav h1{
+	margin:26px auto 38px 7px;
+	font-size:24px;
+	font-family:Myriad Pro;
+}
+
+.main-nav ul li {
+	width:121px;
+}
+
+.main-nav ul li a{
+	text-decoration:none;
+	color:#6397aa;
+	display:block;
+	padding:10px 7px;
+	font-family:Myriad Pro;
+	font-size:14px;
+	border-radius:2px;
+}
+
+.main-nav ul li a:hover{
+	background-color:#6397aa;
+	color:white;
+}
+
+.part-content{
+	width:766px;
+	background-color:red;
+	float:right;
+}
