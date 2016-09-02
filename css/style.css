@@ -86,7 +86,8 @@ div.search{
 }
 
 .main-nav{
-float:left;
+	float:left;
+	max-width:130px;
 }
 
 .main-nav h1{
@@ -115,7 +116,18 @@ float:left;
 }
 
 .part-content{
+	display:inline-block;
+	margin-top:31px;
+	margin-left:139px;
 	width:766px;
 	background-color:red;
-	float:right;
+	height:1300px;
+}
+
+.part-content-cell{
+	display:inline-block;
+	width:232px;
+	height:260px;
+	background-color:white;
+	right:0;
 }
