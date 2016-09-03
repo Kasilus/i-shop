@@ -82,6 +82,7 @@ div.search{
 
 .new-content{
 	height:362px;
+	background-color:yellow;
 	
 }
 
@@ -118,14 +119,14 @@ div.search{
 	float:right;
 	margin-top:31px;
 	width:780px;
-	
 	height:1300px;
+	
 }
 
 .part-content-cell{
 	float:right;
 	width:230px;
-	height:284px;
+	height:290px;
 	background-color:white;
 	margin-left:30px;
 }
@@ -149,5 +150,20 @@ div.search{
 	padding:46px;
 }
 
+.button{
+	width:100%;
+	text-align:center;
+	margin-left:30px;
+}
 
-
+.part-content input[type=button]{
+	background-color: #99c873;
+    border: none;
+	border-radius:3px;
+    color: white;
+	font-size:14px;
+    padding: 13px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
