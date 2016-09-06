@@ -88,8 +88,16 @@ div.search{
 
 .new-content{
 	height:362px;
-	
 }
+
+.main-content {
+	height:689px;
+	background-color:#f6fcff;
+	width:100%;
+	position:absolute;
+	left:0;
+}
+
 
 .main-nav{
 	float:left;
@@ -125,14 +133,12 @@ div.search{
 	margin-top:31px;
 	width:780px;
 	height:1300px;
-	
 }
 
 .part-content-cell{
 	float:right;
 	width:230px;
 	height:290px;
-	background-color:white;
 	margin-left:30px;
 }
 
@@ -153,6 +159,7 @@ div.search{
 .image{
 	border:1px solid #dddddd;
 	padding:46px;
+	background-color:white;
 }
 
 .button{
