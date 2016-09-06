@@ -22,20 +22,26 @@ div.search{
 }
 
 .search input[type=text]{	
- background-image: url('images/search.png');
  width:308px;
- height:37px;	
- display:inline-block;
- position:relative;
+ height:37px;
+ border:2px solid #6397aa;
+ background-color:white;
+ background-image:url("../images/search.png");
+ background-repeat:no-repeat;
+ background-position:97% 50%;
+ border-radius:4px;
  margin-left:43px;
+ padding-left:15px;
 }
 
 .top-info {
 	float:right;
+	font-family:Myriad Pro;
+	color:#000a52;
 }
 
 .top-info span.phone{
-	color:red;
+	font-weight:bold;
 }
 
 .top-info ul li{
@@ -82,7 +88,6 @@ div.search{
 
 .new-content{
 	height:362px;
-	background-color:yellow;
 	
 }
 
