@@ -1,4 +1,10 @@
 @import url(reset.css);
+
+body{
+	font-family:Myriad Pro;
+}
+
+
 .wrapper{
 	width:1030px;
 	height:auto;
@@ -193,7 +199,7 @@ div.search{
 
 .low-content{
 	margin-top:700px;
-	height:700px;
+	height:650px;
 }
 
 .new-items{
@@ -261,4 +267,41 @@ div.search{
     transform: translate(-50%, -50%);
 	color:#627b92;
 	
+}
+
+.sponsors{
+	margin-top:60px;
+	height:58px;
+	margin-bottom:58px;
+}
+
+.sponsors-logos{
+	display:inline-block;
+	margin-right:112px;
+}
+
+#last{
+	margin-right:0;
+}
+
+.low-foot{
+	margin-bottom:54px;
+	display:inline-block;
+}
+
+.low-foot ul{
+	margin-top:22px;
+}
+
+.low-foot ul li{
+	float:left;
+	margin-right:12px;
+}
+
+.low-foot ul li a{
+	text-decoration:none;
+}
+
+.share{
+	float:right;
 }
